@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c48f8f;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="number"], 
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;     
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 9px;
+    background-color: #1d822a;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
